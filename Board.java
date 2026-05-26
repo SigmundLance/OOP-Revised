@@ -176,7 +176,7 @@ public class Board {
 
             current.drawGhost(g, size, offsetX, offsetY, grid);
 
-            current.draw(g, size, offsetX, offsetY);
+            current.draw(g, size, offsetX, offsetY, false);
         }
 
         drawScoreBox(g);
